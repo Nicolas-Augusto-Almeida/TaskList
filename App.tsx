@@ -55,7 +55,6 @@ export default function App() {
 
   const handleDelete = () => {
     dispatch({ type: "delete-selected-tasks" });
-    console.log(state.tasks);
   };
 
   return (
